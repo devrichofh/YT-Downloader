@@ -10,6 +10,6 @@ async def start(client, message):
             "Lapor Bug 😊", url="https://t.me/devrichofh")]
     
     ])
-    welcomed = f"Halooo <b>{message.from_user.first_name}</b>\n ketik /help untuk melihat cara penggunaan"
+    welcomed = f"Halooo <b>{message.from_user.first_name}</b>\nketik /help untuk melihat cara penggunaan\nDibuat oleh @devrichofh"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
